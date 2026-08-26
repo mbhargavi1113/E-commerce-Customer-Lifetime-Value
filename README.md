@@ -44,3 +44,34 @@ Predictive Analytics Project/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+
+
+## Setup
+
+First, create a virtual environment for the project.
+
+py -m venv .venv
+
+Then activate the virtual environment.
+
+.venv\Scripts\Activate.ps1
+
+After that, install the required libraries using the requirements.txt file.
+
+python -m pip install -r requirements.txt
+
+The dataset should be placed inside the data/raw/ folder.
+
+## How to Run
+
+The project will be run using the training and prediction pipelines inside the src/pipeline/ folder.
+
+The exact steps for running the project will be added as I complete the different parts of the project.
+
+## Current Status
+
+The project is currently in progress.
+
+So far, I have completed the basic project setup, created the project structure, set up the Python environment, and selected the Online Retail Dataset.
+
+The next steps are data ingestion, data preprocessing, exploratory data analysis, feature engineering, and model development.
